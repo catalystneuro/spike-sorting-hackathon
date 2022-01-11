@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+## Spike sorting hackathon hybrid event
 
-You can use the [editor on GitHub](https://github.com/catalystneuro/spike-sorting-hackathon/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  * [Dates and Location](#dates-and-location)
+  * [Overview](#overview)
+  * [Registration](#registration)
+  * [Logistics](#logistics)
+  * [How to prepare?](#how-to-prepare)
+  * [Organizing Committee](#organizing-committee)
+  * [Projects](#projects)
+  * [Breakout Sessions](#breakout-sessions)
+  * [Agenda](#agenda)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Dates and Location
 
-### Markdown
+- **Pre-hackathon project pitch session:** TBD
+- **Dates:** June 6 - 10 (tentative)
+- **Location:** NYC
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Overview
 
-```markdown
-Syntax highlighted code block
+This event is to bring together spike sorting developers to collaborate on targeted integration problems.
 
-# Header 1
-## Header 2
-### Header 3
+## Registration
 
-- Bulleted
-- List
+Registration is free. Please register using this link so we know who is coming and to send you announcements regarding this event.
 
-1. Numbered
-2. List
+## Logistics
 
-**Bold** and _Italic_ and `Code` text
+Transit:
+Hotel:
+Assistance contact:
 
-[Link](url) and ![Image](src)
-```
+## How to prepare?
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+We request that each user submit a project here.
 
-### Jekyll Themes
+## Projects
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/catalystneuro/spike-sorting-hackathon/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+For instructions on how to create a project, see [here](projects/README.md)
 
-### Support or Contact
+{% include_relative projects/PROJECTS.md %}
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Breakout Sessions
+
+{% include_relative projects/BREAKOUTS.md %}
+
+## Agenda
+
+
+
+## Organizing committee
+
+- Jeremy Magland
+- Ben Dichter
+- Alessio Buccino
+- Samuel Garcia
+
