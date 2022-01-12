@@ -1,4 +1,4 @@
-[:rewind: Back to main page](../index.md)
+[Back to main page](../index.md)
 
 ## What should my hackathon project look like?
 
