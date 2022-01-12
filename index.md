@@ -23,7 +23,9 @@ Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQ
 
 ## Projects
 
-We will be organizing our goals for the hackathon around Projects, which can be submitted to this website via GitHub. All participants are encouraged to start a new project or join an existing project. See list of projects [here](projects/PROJECT_LIST.md)
+We will be organizing our goals for the hackathon around Projects, which can be submitted to this website via GitHub. All participants are encouraged to start a new project or join an existing project.
+
+{% include_relative projects/PROJECT_LIST.md %}
 
 See instructions [here](projects/README.md).
 
