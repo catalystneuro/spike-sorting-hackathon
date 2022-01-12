@@ -16,6 +16,9 @@
 
 <!-- Add a short paragraph describing the project. -->
 
+
+One of the biggest usability challenges of SpikeInterface is installing the different spike sorters. This is particularly challenging for sorters that run on MATLAB and those that have specific requirements like GPU. Creating docker containers for each sorter will make them easier to install locally and deploy remotely.
+
 ## Objectives
 
 <!-- Briefly describe the objectives of your project. What would you like to achive?-->
