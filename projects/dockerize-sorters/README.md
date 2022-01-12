@@ -47,6 +47,8 @@ One of the biggest usability challenges of SpikeInterface is installing the diff
 
 ## Background and References
 
+https://github.com/SpikeInterface/spikeinterface-dockerfiles
+
 <!--Use this space for information that may help people better understand your project, like links to papers, source code, or data ,e.g:-->
 <!-- - Source code: https://github.com/YourUser/YourRepository -->
 <!-- - Documentation: https://link.to.docs -->
