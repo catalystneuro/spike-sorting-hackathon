@@ -4,4 +4,4 @@ The lists below provides an overview of specific projects for which at least one
 
 * [Template Project](template)
 
-* [Motion correction in SpikeInterface](motion-correction)
+* [Motion correction in SpikeInterface](motion-correction-in-si)
