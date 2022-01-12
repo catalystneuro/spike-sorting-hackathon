@@ -25,7 +25,14 @@ Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQ
 
 We will be organizing our goals for the hackathon around Projects, which can be submitted to this website via GitHub. All participants are encouraged to start a new project or join an existing project.
 
-{% include_relative projects/PROJECT_LIST.md %}
+### List of Projects
+
+The lists below provides an overview of specific projects for which at least one or more attendees have signed up for to contribute to. Projects are collaborative in nature. If you are attending the hackathon and are interested in participating in any of the existing projects then please contact the team listed on the project page and add your name to the list of participants for the project.
+
+* [Template Project](projects/TEMPLATE)
+
+* [Motion correction in SpikeInterface](projects/motion-correction-in-si)
+
 
 See instructions [here](projects/README.md).
 
