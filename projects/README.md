@@ -11,7 +11,7 @@ Everyone should be part of a project, but not everyone must have their own proje
 
 ## How to create a new project
 
-When you are ready, create a new project by creating a new `README.md` file in a new subfolder of the [projects](.) folder using the provided [project template][template/] and add your project to the project list in the [PROJECTS.md](PROJECTS.md) file. Step-by-step instructions for creating a new project using GitHub are:
+When you are ready, create a new project by creating a new `README.md` file in a new subfolder of the [projects](.) folder using the provided [project template][template/] and add your project to the project list in the [PROJECT_LIST.md](PROJECT_LIST.md) file. Step-by-step instructions for creating a new project using GitHub are:
 
 1. Open [project template][template/README.md] and copy its full content to the clipboard
 1. Go back to the [projects](https://github.com/catalystneuro/spike-sorting-hackathon/gh_pages/projects) folder on GitHub
