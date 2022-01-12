@@ -11,9 +11,6 @@
 
 ## Project Description
 
-<!-- Add a short paragraph describing the project. -->
-
-## Objectives
 
 Motion of the probe has been a major impediment to high quality spike sorting on high density probes such as the Neuropixel probe. Recent developments in preprocessing have displayed promising results for solving this issue, but these algorithms are varied, complex, and multi-step. Here, we are incorporating these motion correction methods into SpikeInterface so that they are easier for users to access. The motion correction process can be summarized in the following steps: 
 
@@ -30,6 +27,16 @@ Using action potentials:
 
 Using LFP:
 ...
+## Objectives
+
+Incorporate the following methods into SpikeInterface
+* [ ] detect peaks
+* [ ] localize peaks/center of mass
+* [ ] localize peaks/monopolar triangulation
+* [ ] motion estimation/rigid decentralize
+* [ ] motion estimation/non-rigid decentralize
+
+Each of these methods requires implementation, testing, and documentation of usage.
 
 ## Approach and Plan
 
