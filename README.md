@@ -1,1 +1,0 @@
-# spike-sorting-hackathon
