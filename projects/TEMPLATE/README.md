@@ -1,4 +1,4 @@
-[Back to the projects list](../../README.md)
+[Back to the projects list](../../)
 
 <!-- For information on how to write GitHub .md files see https://guides.github.com/features/mastering-markdown/ -->
 
