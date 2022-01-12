@@ -6,9 +6,9 @@
 
 ## Key Investigators
 
-Alessio Buccino
-Samuel Garcia
-Ben Dichter
+- Alessio Buccino
+- Samuel Garcia
+- Ben Dichter
 <!-- - Investigator 1 (Affiliation)-->
 <!-- - Investigator 2 (Affiliation)-->
 
