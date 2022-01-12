@@ -32,7 +32,7 @@ The lists below provides an overview of specific projects for which at least one
 * [Template Project](projects/TEMPLATE)
 
 * [Motion correction in SpikeInterface](projects/motion-correction-in-si)
-* [DOckertize sorters](projects/dockerize-sorters)
+* [Dockertize sorters](projects/dockerize-sorters)
 
 
 See instructions [here](projects/README.md).
