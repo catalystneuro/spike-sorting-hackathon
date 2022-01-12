@@ -3,6 +3,8 @@
   * [Dates and Location](#dates-and-location)
   * [Overview](#overview)
   * [Registration](#registration)
+  * [Projects](#projects)
+  * [Oragnizing Committee](#organizing-committee)
 
 
 ## Dates and Location
@@ -19,3 +21,13 @@ This event is to bring together spike sorting developers to collaborate on targe
 
 Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSeMQJ2h75_CT0rmDIcE2JEBQydY3XPhVoBPpvgxWsi4l2GqGQ/viewform?usp=sf_link) so that we can plan accomodations and send you announcements about the event.
 
+## Projects
+
+We will be organizing our goals for the hackathon around Projects, which can be submitted to this website via GitHub. All participants are encouraged to start a new project or join an existing project. See instructions [here](projects/README.md).
+
+## Organizing Committee
+
+- Jeremy Magland
+- Benjamin Dichter
+- Alessio Buccino
+- Samuel Garcia
