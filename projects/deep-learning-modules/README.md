@@ -2,7 +2,7 @@
 
 <!-- For information on how to write GitHub .md files see https://guides.github.com/features/mastering-markdown/ -->
 
-# Deep Learning spike sorting steps into SpkeInterface
+# Deep Learning spike sorting steps in SpkeInterface
 
 ## Key Investigators
 
