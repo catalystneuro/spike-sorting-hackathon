@@ -2,8 +2,8 @@
 
 ## What should my hackathon project look like?
 
-  1. You can make significant progress during the hackathon (i.e., in ~5 days). This also means that you should come prepared for the hackathon (e.g., be ready to read any data you need for your project)
-  1. The project would benefit from collaboration with others at the hackathon
+* You should expect to be able to make significant progress during the hackathon (i.e., in ~5 days). This also means that you should come prepared for the hackathon (e.g., prepare in advance any data you need for your project)
+* The project will benefit from collaboration with others at the hackathon.
 
 ### Does everyone need to have their own project?
 

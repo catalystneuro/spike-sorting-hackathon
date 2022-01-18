@@ -4,7 +4,7 @@
   * [Overview](#overview)
   * [Registration](#registration)
   * [Projects](#projects)
-  * [Oragnizing Committee](#organizing-committee)
+  * [Organizing Committee](#organizing-committee)
 
 
 ## Dates and Location
@@ -27,13 +27,13 @@ We will be organizing our goals for the hackathon around Projects, which can be 
 
 ### List of Projects
 
-The lists below provides an overview of specific projects for which at least one or more attendees have signed up for to contribute to. Projects are collaborative in nature. If you are attending the hackathon and are interested in participating in any of the existing projects then please contact the team listed on the project page and add your name to the list of participants for the project.
+The list below provides an overview of specific projects for which at least one or more attendees have signed up for to contribute to. Projects are collaborative in nature. If you are attending the hackathon and are interested in participating in any of the existing projects then please contact the team listed on the project page and add your name to the list of participants for the project.
 
 * [Template Project](projects/TEMPLATE)
 
 * [Motion correction in SpikeInterface](projects/motion-correction-in-si)
-* [Dockertize sorters](projects/dockerize-sorters)
-* [Deep Learning in SpkeInterface](projects/deep-learning-modules)
+* [Dockerize sorters](projects/dockerize-sorters)
+* [Deep Learning in SpikeInterface](projects/deep-learning-modules)
 
 
 See instructions [here](projects/README.md).
