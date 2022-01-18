@@ -33,6 +33,7 @@ The lists below provides an overview of specific projects for which at least one
 
 * [Motion correction in SpikeInterface](projects/motion-correction-in-si)
 * [Dockertize sorters](projects/dockerize-sorters)
+* [Deep Learning in SpkeInterface](projects/deep-learning-modules)
 
 
 See instructions [here](projects/README.md).
