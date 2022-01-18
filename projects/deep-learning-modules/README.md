@@ -57,6 +57,11 @@ network for different steps, probes, and configurations:
 
 ## Background and References
 
+See the following articles for more information:
+
+1. "Removing independent noise in systems neuroscience data using DeepInterpolation" (https://www.nature.com/articles/s41592-021-01285-2)
+2. "YASS: Yet Another Spike Sorter applied to large-scale multi-electrode array recordings in primate retina" (https://www.biorxiv.org/content/10.1101/2020.03.18.997924v1.abstract)
+
 [1]: https://www.nature.com/articles/s41592-021-01285-2 "Removing independent noise in systems neuroscience data using DeepInterpolation"
 [2]: https://www.biorxiv.org/content/10.1101/2020.03.18.997924v1.abstract "YASS: Yet Another Spike Sorter applied to large-scale multi-electrode array recordings in primate retina"
 
