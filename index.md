@@ -15,32 +15,57 @@
 
 ## Overview
 
-This event is to bring together spike sorting developers to collaborate on targeted integration problems.
+This event aims to bring together spike sorting developers and experts to tackle open and unsolved spike sorting 
+issues and to move the spike sorting field forward in an open and higly collaborative fashion.
+
+Given the fast-paced and constantly evolving neurotechnology that is becoming increasingly available to 
+neuroscientists across the globe, we believe that the spike sorting community should join forces to find 
+novel and scalable solutions for fully reproducible and accurate spike sorting in the years to come.
+
+In light of the recent efforts for standardization and unification of spike sorting software (especially with the 
+[SpikeInterface](https://spikeinterface.readthedocs.io/en/latest/) and 
+[SpikeForest](https://spikeforest.flatironinstitute.org/) projects), this hackaton is expected to provide a 
+tangible contribution to the electrophysiology field to make new and integrate existing tools for the community.
 
 ## Registration
+
+The event will be in a hybrid format. Everyone is welcome to join remotely and a total of about 15 on-site participants
+will be invited to the venue.
 
 Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSeMQJ2h75_CT0rmDIcE2JEBQydY3XPhVoBPpvgxWsi4l2GqGQ/viewform?usp=sf_link) so that we can plan accomodations and send you announcements about the event.
 
 ## Projects
 
-We will be organizing our goals for the hackathon around Projects, which can be submitted to this website via GitHub. All participants are encouraged to start a new project or join an existing project.
+We will be organizing our goals for the hackathon around Projects, which can be submitted to this website via GitHub. 
+All participants are encouraged to start a new project or join an existing project. For questions, discussions, and ideas,
+do not hesitate to open issues on the event [GitHub page](https://github.com/catalystneuro/spike-sorting-hackathon)
 
 ### List of Projects
 
-The list below provides an overview of specific projects for which at least one or more attendees have signed up for to contribute to. Projects are collaborative in nature. If you are attending the hackathon and are interested in participating in any of the existing projects then please contact the team listed on the project page and add your name to the list of participants for the project.
-
-* [Template Project](projects/TEMPLATE)
+The list below provides an overview of specific projects for which at least one or more attendees have signed up for to 
+contribute to. Projects are collaborative in nature. If you are attending the hackathon and are interested in 
+participating in any of the existing projects then please contact the team listed on the project page and add your name 
+to the list of participants for the project.
 
 * [Motion correction in SpikeInterface](projects/motion-correction-in-si)
 * [Dockerize sorters](projects/dockerize-sorters)
 * [Deep Learning in SpikeInterface](projects/deep-learning-modules)
 
 
-See instructions [here](projects/README.md).
+To propose a new project, start from the [Template Project](projects/TEMPLATE) and follow the instructions 
+[here](projects/README.md).
+
 
 ## Organizing Committee
 
-- Jeremy Magland
-- Benjamin Dichter
-- Alessio Buccino
-- Samuel Garcia
+- [Jeremy Magland](mailto:jmagland@flatironinstitute.org)
+- [Benjamin Dichter](mailto:ben.dichter@catalystneuro.com)
+- [Alessio Buccino](mailto:alessio.buccino@catalystneuro.com)
+- [Samuel Garcia](mailto:samuel.garcia@cnrs.fr)
+
+
+## Sponsors
+
+This event is sponsored by the [Flatiron Institute](https://www.simonsfoundation.org/flatiron/)
+
+![flatiron](assets/images/flatiron-logo.png)
