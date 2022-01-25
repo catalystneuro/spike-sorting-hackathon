@@ -29,7 +29,7 @@ tangible contribution to the electrophysiology field to make new and integrate e
 
 ## Registration
 
-The event will be in a hybrid format. Everyone is welcome to join remotely and a total of **NUM** on-site partecipants
+The event will be in a hybrid format. Everyone is welcome to join remotely and a total of about 15 on-site participants
 will be invited to the venue.
 
 Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSeMQJ2h75_CT0rmDIcE2JEBQydY3XPhVoBPpvgxWsi4l2GqGQ/viewform?usp=sf_link) so that we can plan accomodations and send you announcements about the event.
