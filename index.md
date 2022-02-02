@@ -66,6 +66,5 @@ To propose a new project, start from the [Template Project](projects/TEMPLATE) a
 
 ## Sponsors
 
-This event is sponsored by the [Flatiron Institute](https://www.simonsfoundation.org/flatiron/)
-
-![flatiron](assets/images/flatiron-logo.png)
+This event is sponsored by the [Center for Computational Mathematics](https://www.simonsfoundation.org/flatiron/center-for-computational-mathematics/) at the [Flatiron Institute](https://www.simonsfoundation.org/flatiron/)
+and by the [Simons Collaboration on the Global Brain](https://www.simonsfoundation.org/collaborations/global-brain/).
