@@ -51,6 +51,8 @@ to the list of participants for the project.
 * [Motion correction in SpikeInterface](projects/motion-correction-in-si)
 * [Dockerize sorters](projects/dockerize-sorters)
 * [Deep Learning in SpikeInterface](projects/deep-learning-modules)
+* [Destriping in SpikeInterface](projects/destriping-in-si)
+* [IBL Benchmarks in Spike Forest](projects/ibl-benchmarks-in-spike-forest)
 
 
 To propose a new project, start from the [Template Project](projects/TEMPLATE) and follow the instructions 
