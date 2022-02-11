@@ -51,6 +51,7 @@ to the list of participants for the project.
 * [Motion correction in SpikeInterface](projects/motion-correction-in-si)
 * [Dockerize sorters](projects/dockerize-sorters)
 * [Deep Learning in SpikeInterface](projects/deep-learning-modules)
+* [Template matching in SpikeInterface](projects/template-matchin-in-si)
 * [Quality metrics in SpikeInterface](projects/quality-metric-in-si)
 * [Clustering in SpikeInterface](projects/clustering-in-si/)
 * [Destriping in SpikeInterface](projects/destriping-in-si)
