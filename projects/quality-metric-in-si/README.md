@@ -1,7 +1,7 @@
 [Back to the projects list](../../)
 
 
-# Quality metric in SpikeInterface
+# Quality metrics in SpikeInterface
 
 ## Key Investigators
 
