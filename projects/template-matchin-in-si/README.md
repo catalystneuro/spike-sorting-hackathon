@@ -2,45 +2,47 @@
 
 <!-- For information on how to write GitHub .md files see https://guides.github.com/features/mastering-markdown/ -->
 
-# Improve template matching in spikeinterface
+# Improve template matching in SpikeInterface
 
 ## Key Investigators
 
 Pierre Yger
 Samuel Garcia
-(Some people from yass team ?)
+Joulien Boussard
 
 
 ## Project Description
 
 ## Objectives
 
-Many sorters use *template matching* aka *peeler* aka *deconvolution* as a final step in 
-the spike sorting pipeline. It is one of the best option to handle the spike colision issue.
+Many spike sorters use *template matching* aka *peeler* aka *deconvolution* as a final step in 
+the spike sorting pipeline. It is one of the best option to handle the spike collision issue.
 
-There are many algorithm that can be use for that steps.
+There are many algorithms that can be used for that steps.
 
-spikeinterface already include 3 of then:
+SpikeInterface already includes 3 of then:
   * tridesclous strategy
   * spyking-cicus strategy
   * cicus-omp (orthogonal matching pursuit) strategy
 
-These 3 methods give descent results but bencmark ar still no perfect.
+These 3 methods give decent results, but bencmarks are still limited.
 
-The hackathon would be an oportunity to improve and port more method for more systematic benchmark.
+The hackathon would be an oportunity to improve the existing strategies and port more methods for a more systematic and complete benchmark.
 
 
 ## Approach and Plan
 
-Implement methods from other sorter :
+Implement methods from other sorter:
 
- * [ ] yass
- * [ ] kilosort
- * [ ] hdsort
+ * [ ] YASS
+ * [ ] Kilosort
+ * [ ] HDSort
 
-Make notebook to report benchmark in various situation
+Make notebooks to report benchmarks in various conditions:
   * [ ] low/high channel count
-  * [ ] stationary vs drifty dataset
+  * [ ] stationary vs drift dataset
+  * [ ] low/high spike collisions
+  * [ ] low/high bursting modulation
 
   
 ## Progress and Next Steps
