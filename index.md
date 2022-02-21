@@ -16,7 +16,7 @@
 ## Overview
 
 This event aims to bring together spike sorting developers and experts to tackle open and unsolved spike sorting 
-issues and to move the spike sorting field forward in an open and higly collaborative fashion.
+issues and to move the spike sorting field forward in an open and highly collaborative fashion.
 
 Given the fast-paced and constantly evolving neurotechnology that is becoming increasingly available to 
 neuroscientists across the globe, we believe that the spike sorting community should join forces to find 
