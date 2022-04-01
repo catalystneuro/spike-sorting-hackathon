@@ -27,13 +27,11 @@ In light of the recent efforts for standardization and unification of spike sort
 [SpikeForest](https://spikeforest.flatironinstitute.org/) projects), this hackaton is expected to provide a 
 tangible contribution to the electrophysiology field to make new and integrate existing tools for the community.
 
-<!--
 ## Registration
 
-The event will be in a hybrid format. Everyone is welcome to join remotely and a total of about 15 on-site participants
-will be invited to the venue.
+The event will be in a hybrid format. We have reached capacity for on-site participants, but anyone is welcome to join remotely.
 
-Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSeMQJ2h75_CT0rmDIcE2JEBQydY3XPhVoBPpvgxWsi4l2GqGQ/viewform?usp=sf_link) so that we can plan accomodations and send you announcements about the event. -->
+Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSeDq6xN5panK_bTCypUDw5gbXmJosWkSlRJA5Rb8-Lnyq6HBA/viewform?usp=sf_link) so that we can send you announcements about the event.
 
 ## Projects
 
