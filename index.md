@@ -27,6 +27,8 @@ In light of the recent efforts for standardization and unification of spike sort
 [SpikeForest](https://spikeforest.flatironinstitute.org/) projects), this hackaton is expected to provide a 
 tangible contribution to the electrophysiology field to make new and integrate existing tools for the community.
 
+Come join developer of popular spike sorting tools including YASS, SpikeInterface, SpyKING CIRCUS, Mountainsort, and many more!
+
 ## Registration
 
 The event will be in a hybrid format. We have reached capacity for on-site participants, but anyone is welcome to join remotely.
