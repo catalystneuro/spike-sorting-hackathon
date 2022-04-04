@@ -9,8 +9,11 @@
 
 ## Dates and Location
 
-- **Pre-hackathon project pitch session:** TBD
-- **Dates:** June 6 - 10
+
+- April 14th, 5pm CET: SpikeInterface lesson (virtual)
+- May 12th, 5pm CET: Pre-hackathon project pitch session (virtual)
+
+- **Hackathon Dates:** June 6 - 10
 - **Location:** Flatiron Institute, 162 5th Ave, New York, NY 10010
 
 ## Overview
