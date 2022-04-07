@@ -3,12 +3,12 @@
   * [Dates and Location](#dates-and-location)
   * [Overview](#overview)
   * [Registration](#registration)
+  * [Preparation](#preparation)
   * [Projects](#projects)
   * [Organizing Committee](#organizing-committee)
 
 
 ## Dates and Location
-
 
 - April 14th, 5pm CET: SpikeInterface lesson (virtual)
 - May 12th, 5pm CET: Pre-hackathon project pitch session (virtual)
@@ -37,6 +37,28 @@ Come join the developers of popular spike sorting tools including YASS, SpikeInt
 The event will be in a hybrid format. We have reached capacity for on-site participants, but anyone is welcome to join remotely.
 
 Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSeDq6xN5panK_bTCypUDw5gbXmJosWkSlRJA5Rb8-Lnyq6HBA/viewform?usp=sf_link) so that we can send you announcements about the event.
+
+## Preparation
+
+In order to maximize the output of the Hackathon, we invite all participants to familiarize with the SpikeInterface 
+framework. An introductory tutorial is available [here](https://github.com/SpikeInterface/spiketutorials/tree/master/Official_Tutorial_SI_0.90_Aug2021).
+
+In addition, we invite the participants to the following virtual pre-events:
+
+April 14th at 5-6:30 pm CET: Advanced SpikeInterface tutorial for developers
+     Alessio and Samuel will lead an internal and technical walkthrough of SpikeInterface. This presentation is intended to help potential contributors of the projects.
+     Zoom link: https://cnrs.zoom.us/j/94633728053?pwd=SDhpNnUzUE5PMWhwRnQ3RkQ3SXN6Zz09
+                       Meeting ID: 946 3372 8053
+
+May 12th, 5-6:30 pm CET: Hackathon project round-table
+     Each project will be invited to give a 2-5 minute presentation. We will discuss and self-organize around projects we want to develop, refining teams and objectives for each project.
+     Zoom link: https://cnrs.zoom.us/j/97520488553?pwd=emFSN0JYamhzMnJkREJoejRud2pDZz09
+                       Meeting ID: 975 2048 8553
+
+Please contact us to receive the respective passcodes.
+
+Also remember that we still have the recurring monthly meeting on spike sorting modularization every first Monday of the month. Anyone is invited to attend and optionally present recent advances on methods for spike sorting. Contact us in case you
+would like to be added to the recurring meeting mailing list.
 
 ## Projects
 
