@@ -45,15 +45,21 @@ framework. An introductory tutorial is available [here](https://github.com/Spike
 
 In addition, we invite the participants to the following virtual pre-events:
 
-April 14th at 5-6:30 pm CET: Advanced SpikeInterface tutorial for developers
-     Alessio and Samuel will lead an internal and technical walkthrough of SpikeInterface. This presentation is intended to help potential contributors of the projects.
-     Zoom link: https://cnrs.zoom.us/j/94633728053?pwd=SDhpNnUzUE5PMWhwRnQ3RkQ3SXN6Zz09
-                       Meeting ID: 946 3372 8053
+### April 14th at 5-6:30 pm CET: Advanced SpikeInterface tutorial for developers
 
-May 12th, 5-6:30 pm CET: Hackathon project round-table
-     Each project will be invited to give a 2-5 minute presentation. We will discuss and self-organize around projects we want to develop, refining teams and objectives for each project.
-     Zoom link: https://cnrs.zoom.us/j/97520488553?pwd=emFSN0JYamhzMnJkREJoejRud2pDZz09
-                       Meeting ID: 975 2048 8553
+Alessio and Samuel will lead an internal and technical walkthrough of SpikeInterface. This presentation is intended to help potential contributors of the projects.
+     
+Zoom link: https://cnrs.zoom.us/j/94633728053?pwd=SDhpNnUzUE5PMWhwRnQ3RkQ3SXN6Zz09
+
+Meeting ID: 946 3372 8053
+
+### May 12th, 5-6:30 pm CET: Hackathon project round-table
+
+Each project will be invited to give a 2-5 minute presentation. We will discuss and self-organize around projects we want to develop, refining teams and objectives for each project.
+     
+Zoom link: https://cnrs.zoom.us/j/97520488553?pwd=emFSN0JYamhzMnJkREJoejRud2pDZz09
+
+Meeting ID: 975 2048 8553
 
 Please contact us to receive the respective passcodes.
 
