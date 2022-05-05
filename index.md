@@ -15,16 +15,16 @@
 
 ## Overview
 
-This event aims to bring together spike sorting developers and experts to tackle open and unsolved spike sorting 
+This event aims to bring together spike sorting developers and experts to tackle open and unsolved spike sorting
 issues and to move the spike sorting field forward in an open and higly collaborative fashion.
 
-Given the fast-paced and constantly evolving neurotechnology that is becoming increasingly available to 
-neuroscientists across the globe, we believe that the spike sorting community should join forces to find 
+Given the fast-paced and constantly evolving neurotechnology that is becoming increasingly available to
+neuroscientists across the globe, we believe that the spike sorting community should join forces to find
 novel and scalable solutions for fully reproducible and accurate spike sorting in the years to come.
 
-In light of the recent efforts for standardization and unification of spike sorting software (especially with the 
-[SpikeInterface](https://spikeinterface.readthedocs.io/en/latest/) and 
-[SpikeForest](https://spikeforest.flatironinstitute.org/) projects), this hackaton is expected to provide a 
+In light of the recent efforts for standardization and unification of spike sorting software (especially with the
+[SpikeInterface](https://spikeinterface.readthedocs.io/en/latest/) and
+[SpikeForest](https://spikeforest.flatironinstitute.org/) projects), this hackaton is expected to provide a
 tangible contribution to the electrophysiology field to make new and integrate existing tools for the community.
 
 <!--
@@ -37,15 +37,15 @@ Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQ
 
 ## Projects
 
-We will be organizing our goals for the hackathon around Projects, which can be submitted to this website via GitHub. 
+We will be organizing our goals for the hackathon around Projects, which can be submitted to this website via GitHub.
 All participants are encouraged to start a new project or join an existing project. For questions, discussions, and ideas,
 do not hesitate to open issues on the event [GitHub page](https://github.com/catalystneuro/spike-sorting-hackathon)
 
 ### List of Projects
 
-The list below provides an overview of specific projects for which at least one or more attendees have signed up for to 
-contribute to. Projects are collaborative in nature. If you are attending the hackathon and are interested in 
-participating in any of the existing projects then please contact the team listed on the project page and add your name 
+The list below provides an overview of specific projects for which at least one or more attendees have signed up for to
+contribute to. Projects are collaborative in nature. If you are attending the hackathon and are interested in
+participating in any of the existing projects then please contact the team listed on the project page and add your name
 to the list of participants for the project.
 
 * [Motion correction in SpikeInterface](projects/motion-correction-in-si)
@@ -56,9 +56,9 @@ to the list of participants for the project.
 * [Clustering in SpikeInterface](projects/clustering-in-si/)
 * [Destriping in SpikeInterface](projects/destriping-in-si)
 * [IBL Benchmarks in Spike Forest](projects/ibl-benchmarks-in-spike-forest)
+* [Visualizing Raw Data](projects/visualizing-raw-data)
 
-
-To propose a new project, start from the [Template Project](projects/TEMPLATE) and follow the instructions 
+To propose a new project, start from the [Template Project](projects/TEMPLATE) and follow the instructions
 [here](projects/README.md).
 
 
