@@ -51,3 +51,5 @@ We will attempt to overcome this limitation by using [deck.gl](https://deck.gl/)
 <!-- - Documentation: https://link.to.docs -->
 <!-- - Test data: https://link.to.test.data -->
 
+[deck.gl TileLayer example](https://deck.gl/examples/tile-layer-non-geospatial/) - useful for displaying raw data
+[pydeck ScatterplotLayer example](https://pydeck.gl/gallery/scatterplot_layer.html) - useful for displaying sorting results
