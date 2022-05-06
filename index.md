@@ -25,7 +25,7 @@ Given the fast-paced and constantly evolving neurotechnology that is becoming in
 neuroscientists across the globe, we believe that the spike sorting community should join forces to find 
 novel and scalable solutions for fully reproducible and accurate spike sorting in the years to come.
 
-In light of the recent efforts for standardization and unification of spike sorting software (especially with the
+In light of the recent efforts for standardization and unification of spike sorting software (especially with the 
 [SpikeInterface](https://spikeinterface.readthedocs.io/en/latest/) and 
 [SpikeForest](https://spikeforest.flatironinstitute.org/) projects), this hackaton is expected to provide a 
 tangible contribution to the electrophysiology field to make new and integrate existing tools for the community.
@@ -40,7 +40,7 @@ Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQ
 
 ## Preparation
 
-In order to maximize the output of the Hackathon, we invite all participants to familiarize with the SpikeInterface
+In order to maximize the output of the Hackathon, we invite all participants to familiarize with the SpikeInterface 
 framework. An introductory tutorial is available [here](https://github.com/SpikeInterface/spiketutorials/tree/master/Official_Tutorial_SI_0.90_Aug2021).
 
 In addition, we invite the participants to the following virtual pre-events:
@@ -48,7 +48,7 @@ In addition, we invite the participants to the following virtual pre-events:
 ### April 14th at 5-6:30 pm CET: Advanced SpikeInterface tutorial for developers
 
 Alessio and Samuel will lead an internal and technical walkthrough of SpikeInterface. This presentation is intended to help potential contributors of the projects.
-
+  
 Zoom link: https://cnrs.zoom.us/j/94633728053?pwd=SDhpNnUzUE5PMWhwRnQ3RkQ3SXN6Zz09
 
 Meeting ID: 946 3372 8053
@@ -56,7 +56,7 @@ Meeting ID: 946 3372 8053
 ### May 12th, 5-6:30 pm CET: Hackathon project round-table
 
 Each project will be invited to give a 2-5 minute presentation. We will discuss and self-organize around projects we want to develop, refining teams and objectives for each project.
-
+  
 Zoom link: https://cnrs.zoom.us/j/97520488553?pwd=emFSN0JYamhzMnJkREJoejRud2pDZz09
 
 Meeting ID: 975 2048 8553
