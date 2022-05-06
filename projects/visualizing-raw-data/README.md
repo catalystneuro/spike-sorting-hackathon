@@ -6,7 +6,7 @@
 
 ## Key Investigators
 
-Josh Siegle (Allen Institute)
+Josh Siegle (Allen Institute), Jeremy Magland (Flatiron Institute)
 
 ## Project Description
 
