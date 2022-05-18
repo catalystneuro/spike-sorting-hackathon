@@ -38,11 +38,17 @@ We will attempt to overcome this limitation by using [deck.gl](https://deck.gl/)
 <!--Describe the progress you have made on the project,e.g., which objectives you have achieved and how.-->
 <!--Describe the next steps you are planing to take to complete the project.-->
 
+- [`figurl-tiled-image` repository](https://github.com/scratchrealm/figurl-tiled-image) - creates a tiled image from a `numpy` array and makes it accessible through the browser (using [kachery-cloud](https://github.com/scratchrealm/kachery-cloud) and [figurl](https://github.com/scratchrealm/figurl2)). 
+
+- [Proof-of-concept example](https://www.figurl.org/f?v=gs://figurl/tiled-image-1&d=ipfs://bafkreid3gmolclm5pjyd27hlbhnxlxefoh3yxi4cylwsph2po25wcqfm4e&label=Neuropixels%20Example) of Neuropixels data displayed as a deck.gl `TileLayer` via [figurl](https://github.com/scratchrealm/figurl2). 
+
 ## Materials
 
 <!--If available add links to the materials relevant to the project, e.g., the code generated for the project or data used-->
 <!--If available add pictures and links to videos that demonstrate what has been accomplished.-->
 <!--![Description of picture](Example2.jpg)-->
+
+[Example data](https://www.dropbox.com/sh/wkkudosfb7f4m5k/AAA8rcbdo4K95JREB3cWvg_ba?dl=0) for this project. Includes raw traces for a Neuropixels 1.0 and 2.0 recording, plus Kilosort 2 sorting results.
 
 ## Background and References
 
@@ -51,5 +57,6 @@ We will attempt to overcome this limitation by using [deck.gl](https://deck.gl/)
 <!-- - Documentation: https://link.to.docs -->
 <!-- - Test data: https://link.to.test.data -->
 
-[deck.gl TileLayer example](https://deck.gl/examples/tile-layer-non-geospatial/) - useful for displaying raw data
-[pydeck ScatterplotLayer example](https://pydeck.gl/gallery/scatterplot_layer.html) - useful for displaying sorting results
+[deck.gl `TileLayer` example](https://deck.gl/examples/tile-layer-non-geospatial/) - useful for displaying raw data
+
+[pydeck `ScatterplotLayer` example](https://pydeck.gl/gallery/scatterplot_layer.html) - useful for displaying sorting results
