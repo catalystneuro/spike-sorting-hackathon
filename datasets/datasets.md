@@ -1,16 +1,28 @@
 # Loading example datasets
 
+  * [Installation and setup](#installation-and-setup)
+  * [Allen Institute example](#allen-institute-example)
+  * [Example dataset from DANDI](#example-dataset-from-dandi)
+  * [SpikeForest](#spikeforest)
+
+
 ## Installation and setup
 
 It is recommended that you use a conda environment with Python >= 3.8 and numpy. (Would someone like to document how to use conda?)
 
-Install [spikeinterface](https://github.com/SpikeInterface/spikeinterface)
+**Install [spikeinterface](https://github.com/SpikeInterface/spikeinterface)**
 
 ```bash
 pip install --upgrade spikeinterface
 ```
 
-Install and set up [kachery-cloud](https://github.com/scratchrealm/kachery-cloud)
+**Install the dandi CLI**
+
+```bash
+pip install dandi
+```
+
+**Install and set up [kachery-cloud](https://github.com/scratchrealm/kachery-cloud)**
 
 ```bash
 pip install --upgrade kachery-cloud
@@ -18,9 +30,11 @@ kachery-cloud-init
 # follow the instructions to associate your client with your Google user name on kachery-cloud
 ```
 
-## Quick Neuropixels example from Allen Inst.
+## Allen Institute example
 
-Here is a one-minute recording shared by Josh. The below script downloads the file from kachery-cloud, but you can also access this file via a dropbox link. This file is 1.4 GB, so will take 1-10 minutes to load, depending on your internet connection.
+Here is one minute of a recording shared by Josh. The below script downloads the file from kachery-cloud. This file is 1.4 GB, so will take 1-10 minutes to load, depending on your internet connection.
+
+The full recording is available via dropbox link.
 
 ```python
 import kachery_cloud as kcl
@@ -49,12 +63,6 @@ Browse dataset: [DANDI:000053](https://dandiarchive.org/dandiset/000053)
 The entire dataset is 1.4 TB. Please don't try to download the entire file during the hackathon - we'll run out of bandwidth.
 
 You can download individual files. However, so that we don't all download the same files at once, we should try to coordinate the download of large files and transfer between computers using an external hard drive.
-
-**Install the dandi CLI**
-
-```bash
-pip install dandi
-```
 
 **Download an individual .nwb ephys file from this dataset**
 
@@ -103,7 +111,7 @@ print(uri)
 # ipfs://bafkreib5b5xawvlt2dvwsdrei4d5etfetyhxviucldd2wxzr4nb7veewue?label=sub-npJ3_ses-20190504.1min.recording
 ```
 
-**Loading a recording from kachery cloud**
+**Loading the recording from kachery cloud**
 
 ```python
 import sortingview as sv
@@ -120,3 +128,7 @@ print(f'Num. channels: {R.get_num_channels()}')
 # Duration (minutes): 1.0
 # Num. channels: 384
 ```
+
+## SpikeForest
+
+See [spikeforest](https://github.com/flatironinstitute/spikeforest) for recordings with ground-truth sortings.
