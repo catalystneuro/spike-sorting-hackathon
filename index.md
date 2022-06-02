@@ -5,6 +5,7 @@
   * [Registration](#registration)
   * [Preparation](#preparation)
   * [Projects](#projects)
+  * [Datasets](#datasets)
   * [Organizing Committee](#organizing-committee)
 
 
@@ -92,6 +93,9 @@ to the list of participants for the project.
 To propose a new project, start from the [Template Project](projects/TEMPLATE) and follow the instructions 
 [here](projects/README.md).
 
+## Datasets
+
+[Downloading and interacting with shared datasets](./datasets/datasets.md)
 
 ## Organizing Committee
 
