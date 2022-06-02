@@ -4,6 +4,7 @@
   * [Allen Institute example](#allen-institute-example)
   * [Example dataset from DANDI](#example-dataset-from-dandi)
   * [SpikeForest](#spikeforest)
+  * [IBL](#international-brain-lab-benchmarks)
 
 
 ## Installation and setup
@@ -132,3 +133,19 @@ print(f'Num. channels: {R.get_num_channels()}')
 ## SpikeForest
 
 See [spikeforest](https://github.com/flatironinstitute/spikeforest) for recordings with ground-truth sortings.
+
+
+## International Brain Lab Benchmarks
+Four samples of Neuropixels 1.0 are provided here.
+For s3 users, the data and companion guide are here:
+s3://ibl-brain-wide-map-public/spikesorting/benchmark/
+
+Downloading and loading scripts are provided in [the ibl folder here](ibl)
+
+
+|           session          	|  probe  	| regions             	|
+|:--------------------------:	|:-------:	|---------------------	|
+| CSH_ZAD_026/2020-09-04/001 	| probe00 	| vis, ca, thalamus   	|
+| CSH_ZAD_029/2020-09-09/001 	| probe00 	| vis, ca, thalamus   	|
+|   SWC_054/2020-10-05/001   	| probe00 	| cerebellum, medulla 	|
+|   SWC_054/2020-10-05/001   	| probe01 	| vis, ca, thalamus   	|
