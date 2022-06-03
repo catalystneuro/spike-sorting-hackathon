@@ -1,6 +1,6 @@
 # Recommended workflow
 
-## Types of content to push to this repo
+Types of content to push to this repo
 
 * Example scripts (e.g., .py files)
 * Notebooks (.ipynb files) - **be sure to always clear the output cells prior to committing notebook files to avoid large files, unnecessary conflicts or frequent updates**
