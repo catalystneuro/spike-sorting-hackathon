@@ -89,6 +89,7 @@ to the list of participants for the project.
 * [Destriping in SpikeInterface](projects/destriping-in-si)
 * [IBL Benchmarks in Spike Forest](projects/ibl-benchmarks-in-spike-forest)
 * [Visualizing Raw Data](projects/visualizing-raw-data)
+* [SortingView SpikeInterface Integration](projects/sortingview-spikeinterface-integration)
 
 To propose a new project, start from the [Template Project](projects/TEMPLATE) and follow the instructions 
 [here](projects/README.md).
