@@ -1,5 +1,17 @@
 # Recommended workflow
 
+## Overview
+
+A primary objective of this hackathon is software integration. Therefore we encourage submitting pull requests to existing projects such as SpikeInterface whenever possible. However, during proof-of-concept development and prototyping, it is often useful to push code to a work-in-progress scratch space project. In addition to other WIP repos, this hackathon repo can serve that purpose. Files such as scripts and documentation can be submitted via PR to the relevant project directory. Do not commit large files, and avoid notebooks with content in output cells. We also encourage the use of [github gists](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists), which are light weight and do not require merge reviews.
+
+* [Types of content to push to this repo](#Types-of-content-to-push-to-this-repo)
+* [One fork per participant](#One-fork-per-participant)
+* [Create branches on your forked repo](#Create-branches-on-your-forked-repo)
+* [Collaborating on a project](#Collaborating-on-a-project)
+* [Periodically fetching changes from the main repo](#Periodically-fetching-changes-from-the-main-repo)
+* [Periodically submitting pull requests](#Periodically-submitting-pull-requests)
+* [Methods of communication](#Methods-of-communication)
+
 ## Types of content to push to this repo
 
 * Example scripts (e.g., .py files)
@@ -51,6 +63,17 @@ As PRs are merged into the [main repo](https://github.com/catalystneuro/), you w
 * On your local system, pull the changes into your main branch, and then merge those changes into the branch you are working on.
 * Push the merged changes on your branch to the forked repo. Your collaborators can then pull.
 
-## Periodically submit pull requests
+## Periodically submitting pull requests
 
 Periodically merge your work back into the [main repo](https://github.com/catalystneuro/spike-sorting-hackathon) via pull requests.
+
+## Methods of communication
+
+Use the following methods of communication
+
+* In person discussion
+* Slack (use the appropriate channel)
+* Github issues on this hackathon repo
+* Pull requests to this hackathon repo
+* Your own github repos
+* Github gists
