@@ -1,7 +1,5 @@
 # Recommended workflow
 
-## Overview
-
 A primary objective of this hackathon is software integration. Therefore we encourage submitting pull requests to existing projects such as SpikeInterface whenever possible. However, during proof-of-concept development and prototyping, it is often useful to push code to a work-in-progress scratch space project. In addition to other WIP repos, this hackathon repo can serve that purpose. Files such as scripts and documentation can be submitted via PR to the relevant project directory. Do not commit large files, and avoid notebooks with content in output cells. We also encourage the use of [github gists](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists), which are light weight and do not require merge reviews.
 
 * [Types of content to push to this repo](#Types-of-content-to-push-to-this-repo)
