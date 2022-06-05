@@ -49,20 +49,12 @@ In addition, we invite the participants to the following virtual pre-events:
 ### April 14th at 5-6:30 pm CET: Advanced SpikeInterface tutorial for developers
 
 Alessio and Samuel will lead an internal and technical walkthrough of SpikeInterface. This presentation is intended to help potential contributors of the projects.
-  
-Zoom link: https://cnrs.zoom.us/j/94633728053?pwd=SDhpNnUzUE5PMWhwRnQ3RkQ3SXN6Zz09
-
-Meeting ID: 946 3372 8053
 
 ### May 12th, 5-6:30 pm CET: Hackathon project round-table
 
 Each project will be invited to give a 2-5 minute presentation. We will discuss and self-organize around projects we want to develop, refining teams and objectives for each project.
-  
-Zoom link: https://cnrs.zoom.us/j/97520488553?pwd=emFSN0JYamhzMnJkREJoejRud2pDZz09
 
-Meeting ID: 975 2048 8553
-
-Please contact us to receive the respective passcodes.
+**Video recordings for the two meetings are available [here](https://drive.google.com/drive/folders/1ZfH-qWYXbz5mU_zRvd774mUbdAOaVCEZ?usp=sharing)**
 
 Also remember that we still have the recurring monthly meeting on spike sorting modularization every first Monday of the month. Anyone is invited to attend and optionally present recent advances on methods for spike sorting. Contact us in case you
 would like to be added to the recurring meeting mailing list.
