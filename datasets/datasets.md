@@ -14,7 +14,7 @@ It is recommended that you use a conda environment with Python >= 3.8 and numpy.
 **Install [spikeinterface](https://github.com/SpikeInterface/spikeinterface)**
 
 ```bash
-pip install --upgrade spikeinterface
+pip install --upgrade spikeinterface[full]
 ```
 
 **Install the dandi CLI**
@@ -35,24 +35,30 @@ kachery-cloud-init
 
 Here is one minute of a recording shared by Josh. The below script downloads the file from kachery-cloud. This file is 1.4 GB, so will take 1-10 minutes to load, depending on your internet connection.
 
-The full recording is available via dropbox link.
+The full recording is available via dropbox [link]( https://www.dropbox.com/sh/wkkudosfb7f4m5k/AAA8rcbdo4K95JREB3cWvg_ba?dl=0).
+
+This [code snippet](examples/example_allen_NP1.py) shows how to load the file from kachery and the associated probe file 
+(`NP1_standard_config.json`):
 
 ```python
 import kachery_cloud as kcl
 import spikeinterface as si
+import probe
 
 # Load recording
 uri = 'ipfs://bafybeihqetpnwdiiujilgr4psqhjbriitaf2gk4ili3fjioonhfquj23ce?label=continuous_1min.dat?label=hackathon_example_data_allen/Neuropix-PXI-100_ProbeA-AP/continuous_1min.dat'
 fname = kcl.load_file(uri)
 
-# TODO: we need the probe information
-R = si.BinaryRecordingExtractor(fname, sampling_frequency=30000, num_chan=384, dtype='int16')
+rec = si.read_binary(fname, sampling_frequency=30000, num_chan=384, dtype='int16')
+probe_group = pi.read_probeinterface("NP1_standard_config.json")
+rec = rec.set_probegroup(probe_group)
+print(rec)
 
 # Print recording information
 print('')
-print(f'Sampling frequency (Hz): {R.get_sampling_frequency()}')
-print(f'Duration (minutes): {R.get_total_duration() / 60}')
-print(f'Num. channels: {R.get_num_channels()}')
+print(f'Sampling frequency (Hz): {rec.get_sampling_frequency()}')
+print(f'Duration (minutes): {rec.get_total_duration() / 60}')
+print(f'Num. channels: {rec.get_num_channels()}')
 ```
 
 ## Example dataset from DANDI
@@ -81,21 +87,21 @@ import spikeinterface.extractors as se
 fname = 'sub-npJ3_ses-20190504_behavior+ecephys.nwb'
 
 # Load the recording and print info
-R = se.NwbRecordingExtractor(fname)
+rec = se.read_nwb_recording(fname)
 
 print('')
-print(f'Sampling frequency (Hz): {R.get_sampling_frequency()}')
-print(f'Duration (minutes): {R.get_total_duration() / 60}')
-print(f'Num. channels: {R.get_num_channels()}')
+print(f'Sampling frequency (Hz): {rec.get_sampling_frequency()}')
+print(f'Duration (minutes): {rec.get_total_duration() / 60}')
+print(f'Num. channels: {rec.get_num_channels()}')
 
-# Extract the first 1 minute and print info
-R2 = R.frame_slice(0, int(3 * 60 * R.get_sampling_frequency()))
+# Extract the first 3 minute and print info
+rec2 = rec.frame_slice(0, int(3 * 60 * rec.get_sampling_frequency()))
 
 print('')
 print('Sub-recording:')
-print(f'Sampling frequency (Hz): {R2.get_sampling_frequency()}')
-print(f'Duration (minutes): {R2.get_total_duration() / 60}')
-print(f'Num. channels: {R2.get_num_channels()}')
+print(f'Sampling frequency (Hz): {rec2.get_sampling_frequency()}')
+print(f'Duration (minutes): {rec2.get_total_duration() / 60}')
+print(f'Num. channels: {rec2.get_num_channels()}')
 ```
 
 **Upload recording to kachery cloud**
@@ -105,8 +111,8 @@ Note that you can only do this for relatively small recordings (<5 GB)
 ```python
 import sortingview as sv
 
-R = ... # recording extractor
-uri = sv.upload_recording_extractor(R, serialize_dtype='int16', label='sub-npJ3_ses-20190504.1min.recording')
+rec = ... # recording extractor
+uri = sv.upload_recording_extractor(rec, serialize_dtype='int16', label='sub-npJ3_ses-20190504.1min.recording')
 print(uri)
 
 # ipfs://bafkreib5b5xawvlt2dvwsdrei4d5etfetyhxviucldd2wxzr4nb7veewue?label=sub-npJ3_ses-20190504.1min.recording
@@ -118,12 +124,12 @@ print(uri)
 import sortingview as sv
 
 uri = 'ipfs://bafkreib5b5xawvlt2dvwsdrei4d5etfetyhxviucldd2wxzr4nb7veewue?label=sub-npJ3_ses-20190504.1min.recording'
-R = sv.load_recording_extractor(uri)
+rec = sv.load_recording_extractor(uri)
 
 print('')
-print(f'Sampling frequency (Hz): {R.get_sampling_frequency()}')
-print(f'Duration (minutes): {R.get_total_duration() / 60}')
-print(f'Num. channels: {R.get_num_channels()}')
+print(f'Sampling frequency (Hz): {rec.get_sampling_frequency()}')
+print(f'Duration (minutes): {rec.get_total_duration() / 60}')
+print(f'Num. channels: {rec.get_num_channels()}')
 
 # Sampling frequency (Hz): 30000.0
 # Duration (minutes): 1.0
