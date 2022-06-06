@@ -56,6 +56,9 @@ Motion correction map: https://docs.google.com/drawings/d/1igJuCqULG7lNq4TfOSNr3
 <!--Describe the progress you have made on the project,e.g., which objectives you have achieved and how.-->
 <!--Describe the next steps you are planing to take to complete the project.-->
 
+<img width="678" alt="image" src="https://user-images.githubusercontent.com/844306/172241273-c1a5f0ee-8f0e-45fb-8c08-2dfbce8e79ed.png">
+
+
 ## Materials
 
 * https://spikeinterface.github.io/blog/spikeinterface-motion-estimation/
