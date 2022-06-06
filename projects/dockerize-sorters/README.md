@@ -6,10 +6,11 @@
 
 ## Key Investigators
 
-- Alessio Buccino
-- Samuel Garcia
-- Chuang Yu Min
 - Ben Dichter
+- Alessio Buccino
+- Chuang Yu Min
+- Julia Sprenger
+- Vincent Prevosto
 
 <!-- - Investigator 1 (Affiliation)-->
 <!-- - Investigator 2 (Affiliation)-->
@@ -23,6 +24,8 @@ One of the biggest usability challenges of SpikeInterface is installing the diff
 
 ## Objectives
 
+The goal of this project is to finalize and clean up the container images for all sorters in SpikeInterface.
+
 <!-- Briefly describe the objectives of your project. What would you like to achive?-->
 
 <!-- 1. Objective A. Describe it in 1-2 sentences.-->
@@ -31,11 +34,24 @@ One of the biggest usability challenges of SpikeInterface is installing the diff
 
 ## Approach and Plan
 
+The plan is to proritize KS and PyKilosort implementations, since they are the most widely used sorters. 
+If we have time, we'll move on to WaveClus first and then HDsort.
+A parallel effort will involve setting up a testing suite on in github actions to test the built images on some toy
+data using docker and/or singularity.
+
 <!-- 1. Describe the steps of your planned approach to reach the objectives.-->
 <!-- 1. ... -->
 <!-- 1. ... -->
 
 ## Progress and Next Steps
+
+- [ ] Dockerize KS1, KS2, and KS3 following KS3 approach (https://github.com/SpikeInterface/spikeinterface-dockerfiles/pull/21)
+- [ ] Create images for missing sorters: pyKilosort, Waveclus (MATLAB) HDSort (MATLAB), YASS
+- [ ] Cleanup spikeinterface-dockerfiles repo and push to all images to Docker Hub
+- [ ] Test on different OS (Windows/Mac)
+- [ ] Implement testing suite on spikeinterface-dockerfiles for CI
+- [ ] Improve documentation on how to get docker/singularity installed
+
 
 <!--Populate this section as you are making progress before/during/after the hackathon-->
 <!--Describe the progress you have made on the project,e.g., which objectives you have achieved and how.-->
@@ -49,7 +65,9 @@ One of the biggest usability challenges of SpikeInterface is installing the diff
 
 ## Background and References
 
-https://github.com/SpikeInterface/spikeinterface-dockerfiles
+- Docker files: https://github.com/SpikeInterface/spikeinterface-dockerfiles
+- Official docker hub images: https://hub.docker.com/orgs/spikeinterface/repositories
+- Chuang Yu Min's dev images: https://hub.docker.com/u/chyumin
 
 <!--Use this space for information that may help people better understand your project, like links to papers, source code, or data ,e.g:-->
 <!-- - Source code: https://github.com/YourUser/YourRepository -->
