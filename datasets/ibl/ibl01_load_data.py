@@ -22,3 +22,10 @@ sr = spikeglx.Reader(cbin_file)
 from viewephys.gui import EphysBinViewer
 EphysBinViewer(cbin_file)
 
+
+# Or with SpikeInterface
+import spikeinterface.full as si
+
+rec = si.read_cbin_ibl(cbin_file)
+print(rec)
+
