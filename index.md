@@ -5,6 +5,7 @@
   * [Registration](#registration)
   * [Preparation](#preparation)
   * [Projects](#projects)
+  * [Recommended workflow](#recommended-workflow)
   * [Datasets](#datasets)
   * [Organizing Committee](#organizing-committee)
 
@@ -93,6 +94,10 @@ to the list of participants for the project.
 
 To propose a new project, start from the [Template Project](projects/TEMPLATE) and follow the instructions 
 [here](projects/README.md).
+
+## Recommended Workflow
+
+[The recommended way to share and contribute code and files during this hackathon](./doc/workflow.md)
 
 ## Datasets
 
