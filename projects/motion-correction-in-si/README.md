@@ -43,11 +43,14 @@ Each of these methods requires implementation, testing, and documentation of usa
 
 ## Approach and Plan
 
+1. Create/refine motion correction map [here](https://docs.google.com/drawings/d/1igJuCqULG7lNq4TfOSNr351Fm03lbeddXLA9Ev77bTA/edit).
 <!-- 1. Describe the steps of your planned approach to reach the objectives.-->
 <!-- 1. ... -->
 <!-- 1. ... -->
 
 ## Progress and Next Steps
+
+Motion correction map: https://docs.google.com/drawings/d/1igJuCqULG7lNq4TfOSNr351Fm03lbeddXLA9Ev77bTA/edit
 
 <!--Populate this section as you are making progress before/during/after the hackathon-->
 <!--Describe the progress you have made on the project,e.g., which objectives you have achieved and how.-->
