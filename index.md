@@ -3,6 +3,7 @@
   * [Dates and Location](#dates-and-location)
   * [Overview](#overview)
   * [Registration](#registration)
+  * [Agenda](#agenda)
   * [Preparation](#preparation)
   * [Projects](#projects)
   * [Recommended workflow](#recommended-workflow)
@@ -39,6 +40,12 @@ Come join the developers of popular spike sorting tools including YASS, SpikeInt
 The event will be in a hybrid format. We have reached capacity for on-site participants, but anyone is welcome to join remotely.
 
 Please complete the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSeDq6xN5panK_bTCypUDw5gbXmJosWkSlRJA5Rb8-Lnyq6HBA/viewform?usp=sf_link) so that we can send you announcements about the event.
+
+## Agenda
+
+<img width="1458" alt="image" src="https://user-images.githubusercontent.com/844306/172174484-e671f124-a283-414e-88dc-3735c03489ab.png">
+
+https://docs.google.com/spreadsheets/d/110CQNjlls3uEpInWs4kUk_tFcPPLByjivr6ISrfB0CU/edit?usp=sharing
 
 ## Preparation
 
