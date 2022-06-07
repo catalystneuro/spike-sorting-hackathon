@@ -33,6 +33,8 @@ From `SpikeInterface <https://github.com/SpikeInterface/spikeinterface/blob/ae67
 
 From the `AllenInstitute <https://github.com/AllenInstitute/ecephys_spike_sorting/blob/master/ecephys_spike_sorting/modules/quality_metrics/metrics.py#L219/>`_
 
+From the `AllenSDK <https://allensdk.readthedocs.io/en/latest/_static/examples/nb/ecephys_quality_metrics.html#Amplitude-cutoff>`_
+
 Literature
 ----------
 
