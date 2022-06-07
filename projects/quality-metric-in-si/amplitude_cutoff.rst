@@ -4,13 +4,32 @@ Amplitude cutoff
 Calculation
 -----------
 
-A histogram of spike amplitudes is created and deviations from the expected distribution are identified.
+A histogram of spike amplitudes is created and deviations from the expected Gaussian distribution are identified.
 
 Expectation and use
 -------------------
 
-Deviations from the expected distributions are used to estimate the number of spikes missing from the unit (false negative rate).
-This yields an estimate of the number of spikes missing from the unit (false negative rate)
+Deviations from the expected Gaussian distributions are used to estimate the number of spikes missing from the unit (false negative rate).
+This yields an estimate of the number of spikes missing from the unit (false negative rate).
+The distributions can be computed on chunks for larger recording, as drift can impact the spike amplitudes (and thus not give a Gaussian distribution anymore).
+
+Example code
+------------
+.. code-block:: python
+
+	import spikeinterface.toolkit as st
+
+	# Make recording, sorting and wvf_extractor objects for your data.
+	
+	fraction_missing = st.compute_amplitudes_cutoff(wvf_extractor, peak_sign="neg")
+	# fraction_missing is a dict containing the units' ID as keys,
+	# and their estimated fraction of missing spikes as values.
+
+Links to source code
+--------------------
+From `SpikeInterface <https://github.com/SpikeInterface/spikeinterface/blob/ae679aff788a6dd4d8e7783e1f72ec7e550c1bf9/spikeinterface/toolkit/qualitymetrics/misc_metrics.py/>`_
+
+From the `AllenInstitute <https://github.com/AllenInstitute/ecephys_spike_sorting/blob/master/ecephys_spike_sorting/modules/quality_metrics/metrics.py/>`_
 
 Literature
 ----------
