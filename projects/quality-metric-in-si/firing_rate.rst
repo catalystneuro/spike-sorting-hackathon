@@ -22,6 +22,35 @@ Highly contaminated units (type I error) may have high firing rates as a result 
 Low firing rate units are likely to be incomplete (type II error), although this is not always the case (some neurons have highly selective firing patterns).
 The firing rate is expected to be approximately log-normally distributed [Buzsáki]_.
 
+Example code
+------------
+
+Without SpikeInterface:
+
+.. code-block:: python
+    
+    spike_train = ...
+    t_recording = ...    # Length of recording (in s).
+
+    firing_rate = len(spike_train) / t_recording
+
+With SpikeInterface:
+
+.. code-block:: python
+
+    import spikeinterface.toolkit as st
+
+    # Make recording, sorting and wvf_extractor object for your data.
+    
+    firing_rate = st.compute_firing_rate(wvf_extractor)
+    # firing_rate is a dict containing the units' ID as keys,
+    # and their firing rate across segments as values (in Hz).
+
+Links to source code
+--------------------
+
+From SpikeInterface `<https://github.com/SpikeInterface/spikeinterface/blob/ae679aff788a6dd4d8e7783e1f72ec7e550c1bf9/spikeinterface/toolkit/qualitymetrics/misc_metrics.py#L52>`_
+
 Literature
 ----------
 
