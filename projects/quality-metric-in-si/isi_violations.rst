@@ -22,10 +22,10 @@ The following quantities are required:
 - :math:`ISI_t` : biological threshold for ISI violation.
 - :math:`ISI_{min}`: minimum ISI threshold enforced by the data recording system used.
 - :math:`ISI_s$` : the array of ISI violations which are observed in the unit's spike train.
-- :math:`#`: denote count.
+- :math:`\#`: denote count.
 
 The threshold for ISI violations is the biological ISI threshold, :math:`ISI_t`, minus the minimum ISI threshold, :math:`ISI_{min}` enforced by the data recording system used.
-The array of inter-spike-intervals observed in the unit's spike train, :math:`ISI_s$`, is used to identify the count (:math:`\#``) of observed ISI's below this threshold.
+The array of inter-spike-intervals observed in the unit's spike train, :math:`ISI_s$`, is used to identify the count (:math:`\#`) of observed ISI's below this threshold.
 For a recording with a duration of :math:`T_r` seconds, and a unit with :math:`N_s` spikes, the rate of ISI violations is:
 
 .. math::
@@ -47,10 +47,10 @@ The estimated contamination :math:`C` can be calculated with 2 extreme scenarios
 
 .. math::
 
-    C = \\frac{FP}{TP + FP} \\approx \\begin{cases}
-        1 - \\sqrt{1 - \\frac{n_v T}{N^2 t_r}} \\text{ for the case of random contamination} \\\\
-        \\frac{1}{2} \\left( 1 - \\sqrt{1 - \\frac{2 n_v T}{N^2 t_r}} \\right) \\text{ for the case of 1 contaminant neuron}
-    \\end{cases}
+    C = \frac{FP}{TP + FP} \approx \begin{cases}
+        1 - \sqrt{1 - \frac{n_v T}{N^2 t_r}} \text{ for the case of random contamination} \\
+        \frac{1}{2} \left( 1 - \sqrt{1 - \frac{2 n_v T}{N^2 t_r}} \right) \text{ for the case of 1 contaminant neuron}
+    \end{cases}
 
 Where :math:`TP` is the number of true positives (detected spikes that come from the neuron) and :math:`FP` is the number of false positives (detected spikes that don't come from the neuron).
 
