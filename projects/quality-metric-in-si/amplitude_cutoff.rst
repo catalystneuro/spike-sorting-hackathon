@@ -15,6 +15,7 @@ The distributions can be computed on chunks for larger recording, as drift can i
 
 Example code
 ------------
+
 .. code-block:: python
 
 	import spikeinterface.toolkit as st
@@ -27,6 +28,7 @@ Example code
 
 Links to source code
 --------------------
+
 From `SpikeInterface <https://github.com/SpikeInterface/spikeinterface/blob/ae679aff788a6dd4d8e7783e1f72ec7e550c1bf9/spikeinterface/toolkit/qualitymetrics/misc_metrics.py#L259/>`_
 
 From the `AllenInstitute <https://github.com/AllenInstitute/ecephys_spike_sorting/blob/master/ecephys_spike_sorting/modules/quality_metrics/metrics.py#L219/>`_
