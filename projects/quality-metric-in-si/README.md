@@ -48,7 +48,7 @@ These 4 repos have been developed in parallel for severals years now, and conver
 
 [Go to the live HTML site](https://catalystneuro.github.io/spike-sorting-hackathon/)
 
-[Isolation distance](https://github.com/scratchrealm/spike-sorting-hackathon/blob/metrics/projects/quality-metric-in-si/isolation_distance)
+[Isolation distance](https://github.com/scratchrealm/spike-sorting-hackathon/blob/metrics/projects/quality-metric-in-si/isolation_distance.rst)
 
 ## Materials
 
