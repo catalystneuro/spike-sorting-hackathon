@@ -38,21 +38,21 @@ Calculation from the Llobet_ paper
 
 The following quantities are required:
 
-- :math: `T` the duration of the recording.
-- :math: `N` the number of spikes in the unit's spike train.
-- :math: `t_r` the duration of the unit's refractory period.
-- :math: `n_v` the number of violations of the refractory period.
+- :math:`T` the duration of the recording.
+- :math:`N` the number of spikes in the unit's spike train.
+- :math:`t_r` the duration of the unit's refractory period.
+- :math:`n_v` the number of violations of the refractory period.
 
-The estimated contamination :math: `C` can be calculated with 2 extreme scenarios. In the first one, the contaminant spikes are completely random (or come from an infinite number of other neurons). In the second one, the contaminant spikes come from a single other neuron:
+The estimated contamination :math:`C` can be calculated with 2 extreme scenarios. In the first one, the contaminant spikes are completely random (or come from an infinite number of other neurons). In the second one, the contaminant spikes come from a single other neuron:
 
 .. math::
 
-    C = \frac{FP}{TP + FP} \approx \begin{cases}
-        1 - \sqrt{1 - \frac{n_v T}{N^2 t_r}} \text{ for the case of random contamination} \\
-        \frac{1}{2} \left( 1 - \sqrt{1 - \frac{2 n_v T}{N^2 t_r}} \right) \text{ for the case of 1 contaminant neuron}
-    \end{cases}
+    C = \\frac{FP}{TP + FP} \\approx \\begin{cases}
+        1 - \\sqrt{1 - \\frac{n_v T}{N^2 t_r}} \\text{ for the case of random contamination} \\\\
+        \\frac{1}{2} \\left( 1 - \\sqrt{1 - \\frac{2 n_v T}{N^2 t_r}} \\right) \\text{ for the case of 1 contaminant neuron}
+    \\end{cases}
 
-Where :math: `TP` is the number of true positives (detected spikes that come from the neuron) and :math: `FP` is the number of false positives (detected spikes that don't come from the neuron).
+Where :math:`TP` is the number of true positives (detected spikes that come from the neuron) and :math:`FP` is the number of false positives (detected spikes that don't come from the neuron).
 
 Expectation and use
 -------------------
