@@ -92,6 +92,16 @@ From `Lussac <https://github.com/BarbourLab/lussac/blob/main/postprocessing/util
 
 From the `AllenSDK <https://allensdk.readthedocs.io/en/latest/_static/examples/nb/ecephys_quality_metrics.html#ISI-violations>`_
 
+Examples with plots
+-------------------
+
+Here is shown the auto-correlogram of two units, with the dashed lines representing the refractory period.
+
+- On the left, we have a unit with no refractory period violations, meaning that this unit is probably not contaminated.
+- On the right, we have a unit with some refractory period violations. It means that it is contaminated, but probably not that much.
+
+.. image:: contamination.png
+    :width: 600
 
 Literature
 ----------
