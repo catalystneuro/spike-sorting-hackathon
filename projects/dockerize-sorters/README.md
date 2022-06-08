@@ -45,11 +45,19 @@ data using docker and/or singularity.
 
 ## Progress and Next Steps
 
-- [ ] Dockerize KS1, KS2, and KS3 following KS3 approach (https://github.com/SpikeInterface/spikeinterface-dockerfiles/pull/21)
-- [ ] Create images for missing sorters: pyKilosort, Waveclus (MATLAB) HDSort (MATLAB), YASS
-- [ ] Cleanup spikeinterface-dockerfiles repo and push to all images to Docker Hub
-- [ ] Test on different OS (Windows/Mac)
-- [ ] Implement testing suite on spikeinterface-dockerfiles for CI
+- [X] Dockerize KS1, KS2, and KS3 following KS3 approach (https://github.com/SpikeInterface/spikeinterface-dockerfiles/pull/21)
+        There are options for future developments, but this is lower priority as these versions seem to work across all platform.
+- [X] Cleanup spikeinterface-dockerfiles repo and push to all images to Docker Hub
+        KS container PR merge / images pushed
+        spikeinterface-jupyterlab PR cleaned up / image pushed
+- [-] Test on different OS (Windows/Mac)
+- [-] Implement testing suite on spikeinterface-dockerfiles for CI
+- [-] Create images for other MATLAB-based sorters: 
+        Waveclus, HDSort
+        MClust: https://github.com/adredish/MClust-Spike-Sorting-Toolbox
+        JRClust: https://github.com/JaneliaSciComp/JRCLUST
+- [ ] Create image for pyKilosort
+- [ ] Test image for YASS (with YASS devs)
 - [ ] Improve documentation on how to get docker/singularity installed
 
 
