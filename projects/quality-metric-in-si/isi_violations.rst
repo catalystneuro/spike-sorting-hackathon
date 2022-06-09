@@ -103,6 +103,46 @@ Here is shown the auto-correlogram of two units, with the dashed lines represent
 .. image:: contamination.png
     :width: 600
 
+This figure can be generated with the following code:
+
+.. code-block:: python
+
+    import plotly.graph_objects as go
+    import spikeinterface.toolkit as st
+
+    # Create your sorting object
+    unit_ids = ... # Units you are interested in vizulazing.
+    sorting = sorting.select_units(unit_ids)
+    t_r = 1.5   # Refractory period (in ms).
+
+    correlograms, bins = st.compute_correlograms(sorting, window_ms=50.0, bin_ms=0.2, symmetrize=True)
+
+    fig = go.Figure().set_subplots(rows=1, cols=2)
+
+    fig.add_trace(go.Bar(
+        x=bins[:-1] + (bins[1]-bins[0])/2,
+        y=correlograms[0, 0],
+        width=bins[1] - bins[0],
+        marker_color="CornflowerBlue",
+        name="Non-contaminated unit",
+        showlegend=False
+    ), row=1, col=1)
+    fig.add_trace(go.Bar(
+        x=bins[:-1] + (bins[1]-bins[0])/2,
+        y=correlograms[1, 1],
+        width=bins[1] - bins[0],
+        marker_color="CornflowerBlue",
+        name="Contaminated unit",
+        showlegend=False
+    ), row=1, col=2)
+
+    fig.add_vline(x=-t_r, row=1, col=1, line=dict(dash="dash", color="Crimson", width=1))
+    fig.add_vline(x=t_r, row=1, col=1, line=dict(dash="dash", color="Crimson", width=1))
+    fig.add_vline(x=-t_r, row=1, col=2, line=dict(dash="dash", color="Crimson", width=1))
+    fig.add_vline(x=t_r, row=1, col=2, line=dict(dash="dash", color="Crimson", width=1))
+
+    fig.show()
+
 Literature
 ----------
 
