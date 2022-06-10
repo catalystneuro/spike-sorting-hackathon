@@ -50,7 +50,7 @@ We will attempt to overcome this limitation by using [deck.gl](https://deck.gl/)
 
 - [Example](https://www.figurl.org/f?v=gs://figurl/figurl-tiled-image-2&d=ipfs://QmcksfB7uq3aoYWn2Et9XRKxWMLmu88pos61RWmeCtiHyk&label=Neuropix-PXI-100_ProbeA-AP) of Neuropixels 1.0 data displayed after three different pre-processing steps (filtering, phase shifting, and referencing).
 
-- [Code](https://github.com/scratchrealm/figurl-tiled-image/blob/main/examples/spikeinterface_example.py) and [example] of Neuropixels 2.0 data displayed after three different pre-processing steps (centering, filtering, and referencing).
+- [Code](https://github.com/scratchrealm/figurl-tiled-image/blob/main/examples/spikeinterface_example.py) and [example](https://www.figurl.org/f?v=gs://figurl/figurl-tiled-image-2&d=ipfs://QmRAkF6S2RWCxYDCjm5ov9LtxA4SivM1ETzHSphQAsRauv&label=SpikeInterface%20TiledImage%20example) of Neuropixels 2.0 data displayed after three different pre-processing steps (centering, filtering, and referencing).
 
 The last example demonstrates how these plotting methods can be used in practice: given a set of `SpikeInterface` recording extractors, it's now possible to generate a link to a scrollable, zoomable visualization of the raw data.
 
