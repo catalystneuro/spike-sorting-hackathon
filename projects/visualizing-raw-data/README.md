@@ -32,15 +32,34 @@ We will attempt to overcome this limitation by using [deck.gl](https://deck.gl/)
 5. Combine the outputs of 3 + 4 into one visualization.
 6. Add raw data plotting functions to SpikeInterface and (time permitting) sortingview.
 
-## Progress and Next Steps
+## Progress
 
 <!--Populate this section as you are making progress before/during/after the hackathon-->
 <!--Describe the progress you have made on the project,e.g., which objectives you have achieved and how.-->
 <!--Describe the next steps you are planing to take to complete the project.-->
 
-- [`figurl-tiled-image` repository](https://github.com/scratchrealm/figurl-tiled-image) - creates a tiled image from a `numpy` array and makes it accessible through the browser (using [kachery-cloud](https://github.com/scratchrealm/kachery-cloud) and [figurl](https://github.com/scratchrealm/figurl2)). 
+### Pre-hackathon
 
-- [Proof-of-concept example](https://www.figurl.org/f?v=gs://figurl/tiled-image-1&d=ipfs://bafkreid3gmolclm5pjyd27hlbhnxlxefoh3yxi4cylwsph2po25wcqfm4e&label=Neuropixels%20Example) of Neuropixels data displayed as a deck.gl `TileLayer` via [figurl](https://github.com/scratchrealm/figurl2). 
+- The [`figurl-tiled-image` repository](https://github.com/scratchrealm/figurl-tiled-image) - creates a tiled image from a `numpy` array and makes it accessible through the browser (using [kachery-cloud](https://github.com/scratchrealm/kachery-cloud) and [figurl](https://github.com/scratchrealm/figurl2)). 
+
+- [Proof-of-concept example](https://www.figurl.org/f?v=gs://figurl/tiled-image-1&d=ipfs://bafkreid3gmolclm5pjyd27hlbhnxlxefoh3yxi4cylwsph2po25wcqfm4e&label=Neuropixels%20Example) of Neuropixels data displayed as a deck.gl `TileLayer` via [figurl](https://github.com/scratchrealm/figurl2).
+
+### During the hackathon
+
+- [Code](https://github.com/scratchrealm/figurl-tiled-image/blob/main/examples/multipanel_mandelbrot.py) and [example](https://www.figurl.org/f?v=gs://figurl/figurl-tiled-image-2&d=ipfs://QmYDC6aw1dD3NLyvMjzhoZgXaU7XNMRScQ8NLLGS2gacM9&label=Mandelbrot%20tiled%20image) of a multi-layer image.
+
+- [Example](https://www.figurl.org/f?v=gs://figurl/figurl-tiled-image-2&d=ipfs://QmcksfB7uq3aoYWn2Et9XRKxWMLmu88pos61RWmeCtiHyk&label=Neuropix-PXI-100_ProbeA-AP) of Neuropixels 1.0 data displayed after three different pre-processing steps (filtering, phase shifting, and referencing).
+
+- [Code](https://github.com/scratchrealm/figurl-tiled-image/blob/main/examples/spikeinterface_example.py) and [example] of Neuropixels 2.0 data displayed after three different pre-processing steps (centering, filtering, and referencing).
+
+The last example demonstrates how these plotting methods can be used in practice: given a set of `SpikeInterface` recording extractors, it's now possible to generate a link to a scrollable, zoomable visualization of the raw data.
+
+## Next steps
+
+- The code we have written could be more tightly integrated into `SpikeInterface` by creating an alternative backend for the `plot_timeseries` function. Currently, this method displays the raw traces using `matplotlib`, but there could also be an option to export the traces as a tiled image on `figurl`.
+
+- We have not yet tried to overlay the sorting results on top of the raw data. This is a more involved project, but one that will be useful for comparing the output of different sorters.
+
 
 ## Materials
 
