@@ -36,6 +36,7 @@ kachery-cloud-init
 Here is one minute of a recording shared by Josh. The below script downloads the file from kachery-cloud. This file is 1.4 GB, so will take 1-10 minutes to load, depending on your internet connection.
 
 The full recording is available via dropbox [link]( https://www.dropbox.com/sh/wkkudosfb7f4m5k/AAA8rcbdo4K95JREB3cWvg_ba?dl=0).
+You'll also need this [probe file](examples/NP1_standard_config.json).
 
 This [code snippet](examples/example_allen_NP1.py) shows how to load the file from kachery and the associated probe file 
 (`NP1_standard_config.json`):
