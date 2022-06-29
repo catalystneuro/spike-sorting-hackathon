@@ -90,6 +90,8 @@ to the list of participants for the project.
 * [IBL Benchmarks in Spike Forest](projects/ibl-benchmarks-in-spike-forest)
 * [Visualizing Raw Data](projects/visualizing-raw-data)
 * [SortingView SpikeInterface Integration](projects/sortingview-spikeinterface-integration)
+* [Benchmark spike detection](projects/detection-benchmark)
+
 
 To propose a new project, start from the [Template Project](projects/TEMPLATE) and follow the instructions 
 [here](projects/README.md).
